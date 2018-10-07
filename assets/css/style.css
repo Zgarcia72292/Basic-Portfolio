@@ -1,0 +1,243 @@
+body {
+    background-image: url("../images/gravel.png");
+}
+
+#name {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    width: 150px;
+    height: 32px;
+    padding: 22px;
+    position: relative;
+    left:14%;
+}
+
+.header {
+    height: 76px;
+    background-color: white;
+    position: relative;
+    border-bottom: solid #cccccc 2px;
+    bottom: 16px;
+}
+
+.links {
+    float: right;
+    position: relative;
+    right: 10%;
+    bottom: 69px;
+}
+
+a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding:10px;
+    text-decoration: none;
+}
+
+#border {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    display: inline;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    border: 1px solid #dddddd;
+    background-color: white;
+}
+
+#about-me { color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#line-break {
+    height: 1px;
+    background-color: #777777;
+}
+
+#mypic {
+    float: left;
+    padding: 15px 15px 0 15px;
+    width: 180px;
+    height: 180px; 
+}
+
+.paragraph{
+    line-height: 2;
+    padding: 10px;
+    opacity: .8;
+}
+
+#about-section {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 15px;
+}
+
+#contact-section {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 15px;
+}
+
+.footer {
+    background-color: #666666;
+    height: 50px;
+    border-top: solid #4aaaa5 7px;
+}
+
+#copyright {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    color: lightgray;
+    position: relative;
+    left:50%;
+}
+
+input {
+    width: 95%;
+}
+
+textarea {
+    border: 1px solid #dfdfdf;
+}
+
+input {
+    opacity: .8;
+    padding: 6px 6px;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    padding: 12px 40px;
+    font-size: 14px;
+}
+
+#portfolio-page {
+    position: relative;
+    height: 935px;
+    width: 960px;
+}
+
+#portfolio-title {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding:10px 0 0 20px;
+}
+
+#contact-title {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding:10px 0 0 0;
+}
+
+#pic1 {
+    position: absolute;
+    top: 10%;
+    left: 3%;
+}
+
+#pic2 {
+    position: absolute;
+    top: 10%;
+    left: 35.5%;
+}
+
+#pic3 {
+    position: absolute;
+    top: 36.5%;
+    left: 3%;
+}
+
+#pic4 {
+    position: absolute;
+    top: 36.5%;
+    left: 35.5%;
+}
+
+#pic5 {
+    position: absolute;
+    top: 63%;
+    left: 3%;
+}
+
+#pic1-text {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align-last: center;
+    padding: 2%;
+    width: 24.1%;
+    height: 2%;
+    z-index: 2;
+    top: 22.2%;
+    left: 3%;
+}
+
+#pic2-text {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align-last: center;
+    padding: 2%;
+    width: 24.1%;
+    height: 2%;
+    z-index: 2;
+    top: 22.2%;
+    left: 35.5%;
+}
+
+#pic3-text {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align-last: center;
+    padding: 2%;
+    width: 24.1%;
+    height: 2%;
+    z-index: 2;
+    top: 48.8%;
+    left: 3%;
+}
+
+#pic4-text {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align-last: center;
+    padding: 2%;
+    width: 24.1%;
+    height: 2%;
+    z-index: 2;
+    top: 48.8%;
+    left: 35.5%;
+}
+
+#pic5-text {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align-last: center;
+    padding: 2%;
+    width: 24.1%;
+    height: 2%;
+    z-index: 2;
+    top: 75.4%;
+    left: 3%;
+}
